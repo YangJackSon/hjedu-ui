@@ -1,0 +1,32 @@
+.overflow-drawer{overflow-y: scroll!important;}
+
+
+/* 默认颜色边框*/
+.border-theme{ border: 1px solid var(--theme-color);}
+
+/* 小标签*/
+.p-min{ padding: 0 4px; border-radius: 4px}
+
+/* 默认背景颜色*/
+.bg-theme{ background: var(--theme-color)!important; }
+
+.wid150-no{width: 150px!important;}
+.wid185-no{width: 185px!important;}
+.wid190{width: 190px!important;overflow-x: hidden;}
+.wid210{width: 210px!important;overflow-x: hidden;}
+.wid220{width: 220px!important;overflow-x: hidden;}
+.wid340{width: 340px!important;overflow-x: hidden;}
+.wid400{width: 400px!important;overflow-x: hidden;}
+
+
+.hgt160{ height: 160px!important;overflow-y: hidden;}
+
+/*.el-tooltip__popper.is-light {*/
+    /*background: #FFF;* transparent/
+    /*border: 1px siolid var(--theme-color)!important;*/
+/*}*/
+
+
+
+
+
