@@ -65,7 +65,7 @@
                 <el-select v-model="majorData.type"
                            filterable
                            :disabled="majorData.bigType ==''"
-                           :placeholder=" majorData.bigType =='' ?  '请先选择专业大类' : '请选择专业名称'"
+                           :placeholder=" majorData.bigType =='' ? '请先选择专业大类' : '请选择专业名称'"
                            @change="smallTypeChange">
                     <el-option
                             v-for="item in majorSmallList"
@@ -79,7 +79,7 @@
                          >
               <el-input v-model="majorData.name"
                         :disabled="majorData.type ==''"
-                        :placeholder=" majorData.bigType == '' ?'请先选择专业大类' : majorData.type =='' ? '请先选择专业名称' : '请填写专业简称'"
+                        :placeholder=" majorData.bigType == '' ? '请先选择专业大类' : majorData.type =='' ? '请先选择专业名称' : '请填写专业简称'"
               ></el-input>
             </el-form-item>
           </el-form>
